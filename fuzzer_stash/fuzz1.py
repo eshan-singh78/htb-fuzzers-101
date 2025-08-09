@@ -2,7 +2,7 @@ import socket
 import json
 from concurrent.futures import ThreadPoolExecutor
 
-TARGET = "10.10.11.74"
+TARGET = "10.10.11.68"
 PORTS = range(1, 1025)
 
 
